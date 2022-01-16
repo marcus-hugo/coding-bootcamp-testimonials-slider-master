@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <main>
+    <h1></h1>
+    <article class="article article--one">
+      <div class="article__img-container">
+        <!-- <img src="images/pattern-bg.svg" alt=""> -->
+        <img class="article__img" src="images/image-tanya.jpg" alt="">
+      </div>
+      
+      <p class="article__text">
+        “ I’ve been interested in coding for a while but never taken the jump, until now.
+        I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+        excited about the future. ”
+      </p>
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+      <h2 class="article__title">Tanya Sinclair</h2>
+      <h3 class="article__subtitle">UX Engineer</h3>
 
-  Tanya Sinclair
-  UX Engineer
+    </article>
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
+    <article class="article article--two">
+      <img class="article__img" src="images/image-john.jpg" alt="">
+      
+      <p class="article__text">
+        “ If you want to lay the best foundation possible I’d recommend taking this course.
+        The depth the instructors go into is incredible. I now feel so confident about
+        starting up as a professional developer. ”
+      </p>
 
-  John Tarkpor
-  Junior Front-end Developer
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      <h2 class="article__title">John Tarkpor</h2>
+      <h3 class="article__subtitle">Junior Front-end Developer</h3>
+
+    </article>
+
+    <img src="images/pattern-curve.svg" alt="">
+  </main>
+
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer> -->
+  
+  <script src="app/index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,30 @@
+@use 'functions'as *;
+
+.article__img-container {
+    background: url(../images/pattern-bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: rem(327);
+    margin: rem(24) auto;
+    height: rem(308);
+    display: grid;
+}
+
+.article__img {
+    max-width: rem(254);
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+}
+
+.article__text {
+    background: url(../images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    font-size: rem(18);
+    font-weight: var(--fw-light);
+    padding: 0 rem(24);
+}
+
+.article--two {
+    display: none;
+}
