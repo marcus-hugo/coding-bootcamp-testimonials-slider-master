@@ -1,0 +1,40 @@
+@use 'functions'as *;
+
+.slide-controls {
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    height: rem(40);
+    background: #fff;
+    border-radius: 28px;
+}
+
+.slide-control {
+    width: rem(40);
+    height: rem(20);
+    border: none;
+    border-radius: 25%;
+}
+.slide-control:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.slide-control:focus {
+    outline: dashed 2px red;
+    outline-offset: 5px;
+}
+
+.slide-control--previous {
+    background: url(../images/icon-prev.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+.slide-control--next {
+    background: url(../images/icon-next.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}

@@ -18,46 +18,64 @@
 
 <body>
   <main>
-    <h1></h1>
-    <article class="article article--one">
-      <div class="article__img-container">
-        <!-- <img src="images/pattern-bg.svg" alt=""> -->
-        <img class="article__img" src="images/image-tanya.jpg" alt="">
+    <section class="carousel" aria-label="carousel" aria-roledescription="carousel">
+
+      <!-- slide controls -->
+      <div class="slide-controls">
+        <button class="slide-control slide-control--previous" aria-controls="carousel-items"
+          aria-label="Previous Slide"></button>
+        <button class="slide-control slide-control--next" aria-controls="carousel-items"
+          aria-label="Next Slide"></button>
       </div>
-      
-      <p class="article__text">
-        “ I’ve been interested in coding for a while but never taken the jump, until now.
-        I couldn’t recommend this course enough. I’m now in the job of my dreams and so
-        excited about the future. ”
-      </p>
 
-      <h2 class="article__title">Tanya Sinclair</h2>
-      <h3 class="article__subtitle">UX Engineer</h3>
+      <div class="carousel-items" aria-live="polite">
+        <!-- slide one -->
+        <div class="slide slide--one" role="group" aria-label="1 of 2" aria-roledescription="slide">
 
-    </article>
+          <div class="slide__img-container">
+            <img class="slide__img" src="images/image-tanya.jpg" alt="portrait of Tanya">
+          </div>
+          <div class="slide__text-container">
+            <p class="slide__text">
+              “ I’ve been interested in coding for a while but never taken the jump, until now.
+              I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+              excited about the future. ”
+            </p>
 
-    <article class="article article--two">
-      <img class="article__img" src="images/image-john.jpg" alt="">
-      
-      <p class="article__text">
-        “ If you want to lay the best foundation possible I’d recommend taking this course.
-        The depth the instructors go into is incredible. I now feel so confident about
-        starting up as a professional developer. ”
-      </p>
+            <h1 class="slide__title" id="slide1heading">Tanya Sinclair</h1>
+            <h2 class="slide__subtitle">UX Engineer</h2>
+          </div>
 
-      <h2 class="article__title">John Tarkpor</h2>
-      <h3 class="article__subtitle">Junior Front-end Developer</h3>
+          <img src="images/pattern-curve.svg" alt="">
+        </div>
 
-    </article>
+        <!-- slide two -->
+        <div class="slide slide--two" role="group" aria-label="2 of 2" aria-roledescription="slide">
+          <div class="slide__img-container">
+            <img class="slide__img" src="images/image-john.jpg" alt="portrait of John Tarkpor">
+          </div>
+          <div class="slide__text-container">
+            <p class="slide__text">
+              “ If you want to lay the best foundation possible I’d recommend taking this course.
+              The depth the instructors go into is incredible. I now feel so confident about
+              starting up as a professional developer. ”
+            </p>
 
-    <img src="images/pattern-curve.svg" alt="">
+            <h2 class="slide__title">John Tarkpor</h2>
+            <h3 class="slide__subtitle">Junior Front-end Developer</h3>
+          </div>
+          <img src="images/pattern-curve.svg" alt="">
+        </div>
+      </div>
+
+    </section>
   </main>
 
-  <!-- <footer class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </footer> -->
-  
+  </footer>
+
   <script src="app/index.js"></script>
 </body>
 

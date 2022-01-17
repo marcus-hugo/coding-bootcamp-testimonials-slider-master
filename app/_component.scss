@@ -1,6 +1,19 @@
 @use 'functions'as *;
 
-.article__img-container {
+.carousel {
+    position: relative;
+}
+
+.slide {
+    max-width: rem(375);
+}
+
+// active state
+.slide.active {
+    display: block;
+}
+
+.slide__img-container {
     background: url(../images/pattern-bg.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -10,21 +23,40 @@
     display: grid;
 }
 
-.article__img {
+.slide__img {
     max-width: rem(254);
     align-self: center;
     justify-self: center;
     border-radius: 5px;
 }
 
-.article__text {
+.slide__text-container {
+    text-align: center;
     background: url(../images/pattern-quotes.svg);
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: rem(60) rem(50);
+    padding-top: rem(24);
+    color: var(--dark-blue);
+}
+
+.slide__text {
     font-size: rem(18);
     font-weight: var(--fw-light);
     padding: 0 rem(24);
 }
 
-.article--two {
+.slide__title {
+    font-size: rem(15);
+    font-weight: var(--fw-bold);
+    margin-top: rem(19);
+}
+
+.slide__subtitle {
+    font-size: rem(15);
+    color: var(--grayish-blue);
+}
+
+.slide--two {
     display: none;
 }

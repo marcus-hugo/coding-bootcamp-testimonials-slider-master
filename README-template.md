@@ -58,9 +58,13 @@ Users should be able to:
 
 
 ### Useful resources
+https://dev.to/jasonwebb/how-to-build-a-more-accessible-carousel-or-slider-35lp
 
+https://www.w3.org/WAI/tutorials/carousels/functionality/
 
+https://www.w3.org/TR/wai-aria-practices-1.1/#carousel
 
+https://dequeuniversity.com/tips/learn-voiceover#:~:text=To%20start%20using%20VoiceOver%2C%20press,those%20visual%20methods%20of%20navigating.
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)

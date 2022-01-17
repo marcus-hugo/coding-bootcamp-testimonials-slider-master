@@ -86,10 +86,13 @@ body {
   font-family: var(--ff);
   font-weight: var(--fw-med);
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 
@@ -97,7 +100,19 @@ body {
   color: #3e52a3;
 }
 
-.article__img-container {
+.carousel {
+  position: relative;
+}
+
+.slide {
+  max-width: 23.4375rem;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide__img-container {
   background: url(../images/pattern-bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -107,23 +122,82 @@ body {
   display: grid;
 }
 
-.article__img {
+.slide__img {
   max-width: 15.875rem;
   align-self: center;
   justify-self: center;
   border-radius: 5px;
 }
 
-.article__text {
+.slide__text-container {
+  text-align: center;
   background: url(../images/pattern-quotes.svg);
   background-repeat: no-repeat;
+  background-position: top;
+  background-size: 3.75rem 3.125rem;
+  padding-top: 1.5rem;
+  color: var(--dark-blue);
+}
+
+.slide__text {
   font-size: 1.125rem;
   font-weight: var(--fw-light);
   padding: 0 1.5rem;
 }
 
-.article--two {
+.slide__title {
+  font-size: 0.9375rem;
+  font-weight: var(--fw-bold);
+  margin-top: 1.1875rem;
+}
+
+.slide__subtitle {
+  font-size: 0.9375rem;
+  color: var(--grayish-blue);
+}
+
+.slide--two {
   display: none;
+}
+
+.slide-controls {
+  position: absolute;
+  top: 39%;
+  left: 40%;
+  height: 2.5rem;
+  background: #fff;
+  border-radius: 28px;
+}
+
+.slide-control {
+  width: 2.5rem;
+  height: 1.25rem;
+  border: none;
+  border-radius: 25%;
+}
+
+.slide-control:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.slide-control:focus {
+  outline: dashed 2px red;
+  outline-offset: 5px;
+}
+
+.slide-control--previous {
+  background: url(../images/icon-prev.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+
+.slide-control--next {
+  background: url(../images/icon-next.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */
