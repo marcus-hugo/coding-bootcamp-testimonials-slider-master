@@ -113,7 +113,7 @@ body {
 }
 
 .slide__img-container {
-  background: url(../images/pattern-bg.svg);
+  background: url(./images/pattern-bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 20.4375rem;
@@ -131,7 +131,7 @@ body {
 
 .slide__text-container {
   text-align: center;
-  background: url(../images/pattern-quotes.svg);
+  background: url(./images/pattern-quotes.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 3.75rem 3.125rem;
@@ -187,14 +187,14 @@ body {
 }
 
 .slide-control--previous {
-  background: url(../images/icon-prev.svg);
+  background: url(./images/icon-prev.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
 }
 
 .slide-control--next {
-  background: url(../images/icon-next.svg);
+  background: url(./images/icon-next.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
