@@ -2,11 +2,22 @@
 
 .slide-controls {
     position: absolute;
-    top: 39%;
+    top: 41%;
     left: 40%;
     height: rem(40);
     background: #fff;
     border-radius: 28px;
+    
+    @media(min-width: 1200px) {
+        z-index: 3;
+        top: 84%;
+        left: 54%;
+        width: 112px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .slide-control {
