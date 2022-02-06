@@ -112,8 +112,13 @@ body {
   display: block;
 }
 
+.slide__bg-pattern {
+  max-width: 86%;
+  position: absolute;
+  z-index: -1;
+}
+
 .slide__img-container {
-  background: url(./images/pattern-bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 20.4375rem;
