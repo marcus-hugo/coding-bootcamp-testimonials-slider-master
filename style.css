@@ -233,6 +233,14 @@ body {
   display: none;
 }
 
+.current {
+  display: none;
+}
+
+.next {
+  display: flex;
+}
+
 .slide-controls {
   position: absolute;
   top: 41%;
