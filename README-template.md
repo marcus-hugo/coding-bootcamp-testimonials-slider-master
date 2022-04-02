@@ -16,7 +16,6 @@ This is a solution to the [Coding bootcamp testimonials slider challenge on Fron
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,11 +31,11 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/marcus-hugo/coding-bootcamp-testimonials-slider-master](https://github.com/marcus-hugo/coding-bootcamp-testimonials-slider-master)
+
+- Live Site URL: [https://marcus-hugo.github.io/coding-bootcamp-testimonials-slider-master/](https://marcus-hugo.github.io/coding-bootcamp-testimonials-slider-master/)
 
 ## My process
 
@@ -47,32 +46,31 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Sass
+- BEM
+- Accessiblity
+- Javascript
 
 
 ### What I learned
 
-
+- How to build a basic manual carousel with acessibilty in mind.
 
 ### Continued development
 
-
-
 ### Useful resources
-https://dev.to/jasonwebb/how-to-build-a-more-accessible-carousel-or-slider-35lp
+- https://dev.to/jasonwebb/how-to-build-a-more-accessible-carousel-or-slider-35lp
 
-https://www.w3.org/WAI/tutorials/carousels/functionality/
+- https://www.w3.org/WAI/tutorials/carousels/functionality/
 
-https://www.w3.org/TR/wai-aria-practices-1.1/#carousel
+- https://www.w3.org/TR/wai-aria-practices-1.1/#carousel
 
-https://dequeuniversity.com/tips/learn-voiceover#:~:text=To%20start%20using%20VoiceOver%2C%20press,those%20visual%20methods%20of%20navigating.
+- https://dequeuniversity.com/tips/learn-voiceover#:~:text=To%20start%20using%20VoiceOver%2C%20press,    those%20visual%20methods%20of%20navigating.
+
+- https://www.w3schools.com/w3css/w3css_slideshow.asp
+
 ## Author
-
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
+- Frontend Mentor - [@marcus-hugo](https://www.frontendmentor.io/profile/marcus-hugo)
 
 ## Acknowledgments
-
-
