@@ -16,7 +16,6 @@ This is a solution to the [Coding bootcamp testimonials slider challenge on Fron
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### The challenge
@@ -29,7 +28,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
-
 
 ### Links
 
@@ -51,7 +49,6 @@ Users should be able to:
 - Accessiblity
 - Javascript
 
-
 ### What I learned
 
 - How to build a basic manual carousel with acessibilty in mind.
@@ -65,12 +62,12 @@ Users should be able to:
 
 - https://www.w3.org/TR/wai-aria-practices-1.1/#carousel
 
-- https://dequeuniversity.com/tips/learn-voiceover#:~:text=To%20start%20using%20VoiceOver%2C%20press,    those%20visual%20methods%20of%20navigating.
+- https://dequeuniversity.com/tips/learn-voiceover
 
 - https://www.w3schools.com/w3css/w3css_slideshow.asp
 
 ## Author
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [https://marcus-hugo.github.io/My-Personal-Website/](https://marcus-hugo.github.io/My-Personal-Website/)
 - Frontend Mentor - [@marcus-hugo](https://www.frontendmentor.io/profile/marcus-hugo)
 
 ## Acknowledgments
