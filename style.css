@@ -82,6 +82,10 @@ select {
   --fw-bold: 700;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--ff);
   font-weight: var(--fw-med);
@@ -90,6 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .attribution {
@@ -249,6 +254,8 @@ body {
   background: #fff;
   border-radius: 28px;
   box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+  display: flex;
+  align-items: center;
 }
 @media (min-width: 1200px) {
   .slide-controls {
